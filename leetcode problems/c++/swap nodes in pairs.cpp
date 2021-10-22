@@ -10,6 +10,10 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+// time complexity: O(n)
+// space complexity: O(1) 
+
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) { 
